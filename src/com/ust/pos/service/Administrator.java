@@ -13,7 +13,7 @@ StoreBean viewStore(String storeId);
 ArrayList <StoreBean> viewAllStore();
 String addFood(FoodBean foodbean);
 boolean modifyFood(FoodBean foodbean);
-boolean removeFood(String storeId, String foodId);
+boolean removeFood(String storeid,String foodid);
 FoodBean viewFood(String foodId);
 ArrayList<FoodBean> viewAllFood(String storeId);   
 String changeOrderStatus(String orderId);

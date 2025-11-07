@@ -2,6 +2,8 @@ package com.ust.pos.bean;
 
 public class FoodBean {
 	private String foodId;
+	private String storeid;
+	
 	private String type;
 	private String name;
 	private String foodSize;
@@ -12,6 +14,17 @@ public class FoodBean {
 	}
 	public void setFoodId(String foodId) {
 		this.foodId = foodId;
+	}
+	@Override
+	public String toString() {
+		return "FoodBean [foodId=" + foodId + ", storeid=" + storeid + ", type=" + type + ", name=" + name
+				+ ", foodSize=" + foodSize + ", quantity=" + quantity + ", price=" + price + "]";
+	}
+	public String getStoreid() {
+		return storeid;
+	}
+	public void setStoreid(String storeid) {
+		this.storeid = storeid;
 	}
 	public String getType() {
 		return type;

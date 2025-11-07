@@ -8,6 +8,20 @@ public class StoreBean {
 	private String pincode;
 	private String mobileNo;
 	private String state;
+	public StoreBean() {
+		this.storeId=storeId;
+		this.name=name;
+		this.street=street;
+		this.city=city;
+		this.pincode=pincode;
+		this.mobileNo=mobileNo;
+		this.state=state;
+		//initialising constructor
+		//or do source-generate cons using fields
+		
+		
+		// TODO Auto-generated constructor stub
+	}
 	public String getStoreId() {
 		return storeId;
 	}
@@ -50,5 +64,11 @@ public class StoreBean {
 	public void setState(String state) {
 		this.state = state;
 	}
+	@Override
+	public String toString() {
+		return "StoreBean [storeId=" + storeId + ", name=" + name + ", street=" + street + ", city=" + city
+				+ ", pincode=" + pincode + ", mobileNo=" + mobileNo + ", state=" + state + "]";
+	}
+	
 }
 
