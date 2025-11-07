@@ -49,7 +49,7 @@ public class AdministratorDAO implements Administrator {
 			}
 		}
 
-		return removedCount-1;
+		return removedCount;
 
 		// Iterator<String> itr=storeId.iterator();
 		// while(itr.hasNext())

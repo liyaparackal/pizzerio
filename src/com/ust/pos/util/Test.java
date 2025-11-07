@@ -31,7 +31,7 @@ public class Test {
 		sb1.setState("kerala");
 		Test.StoreBeanArray.add(sb1);// its already added in admindao
 		StoreBean sb2 = new StoreBean();
-		sb2.setStoreId("101");
+		sb2.setStoreId("102");
 		sb2.setName("a");
 		sb2.setStreet("jn11");
 		sb2.setCity("ang");
@@ -185,7 +185,7 @@ public class Test {
 		    break;
 
 			
-		case "AD-010":
+		case "AD-005":
 			ArrayList<StoreBean> allStores = admindao.viewAllStore();
 		    if (allStores.isEmpty()) {
 		        System.out.println("No stores available.");
