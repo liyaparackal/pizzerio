@@ -17,7 +17,7 @@ public class FoodBean {
 	}
 	@Override
 	public String toString() {
-		return "FoodBean [foodId=" + foodId + ", storeid=" + storeid + ", type=" + type + ", name=" + name
+		return "FoodBean [foodId=" + foodId + ", type=" + type + ", name=" + name
 				+ ", foodSize=" + foodSize + ", quantity=" + quantity + ", price=" + price + "]";
 	}
 	public String getStoreid() {

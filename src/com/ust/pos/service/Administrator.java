@@ -8,7 +8,7 @@ import com.ust.pos.bean.StoreBean;
 public interface Administrator {
 public String addStore(StoreBean storebean);
 boolean modifyStore(StoreBean storebean);
-int removeStore(ArrayList<String> storeId) ;
+int removeStore(String storeid) ;
 StoreBean viewStore(String storeId);
 ArrayList <StoreBean> viewAllStore();
 String addFood(FoodBean foodbean);

@@ -1,5 +1,7 @@
 package com.ust.pos.bean;
 
+import java.sql.Date;
+
 public class CartBean {
 	private int cartId;
 	private String type;
@@ -7,7 +9,7 @@ public class CartBean {
 	private String userId;
 	private double cost;
 	private int quantity;
-	private String orderDate;
+	private Date orderDate;
 	public int getCartId() {
 		return cartId;
 	}
@@ -44,11 +46,11 @@ public class CartBean {
 	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
-	public String getOrderDate() {
+	public Date getOrderDate() {
 		return orderDate;
 	}
-	public void setOrderDate(String orderDate) {
-		this.orderDate = orderDate;
+	public void setOrderDate(java.sql.Date orderDate2) {
+		this.orderDate = orderDate2;
 	}
 	
 }
